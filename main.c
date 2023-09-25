@@ -31,6 +31,7 @@ float calcolapi(int n, int cifre, int output_flag){
         FILE *filepi = fopen("pigreco.txt", "w");
         fprintf(filepi, "Pi e' %.*f", cifre, pi);
         fclose(filepi);
+        return 0;
     }
 
 }
